@@ -16,7 +16,6 @@
 
 
 ## Fork the Repository
-
   ### Create a new fork of the repo by pressing the fork button.
   ### Give your fork a name.
   ### Make sure your IDE is using this fork.
@@ -24,7 +23,7 @@
 
 
 ## Committing Changes
-
   ### Upload new code to your fork.
   ### Create a pull request in the main branch.
   ### Make sure to include a description of what your code does.
+  ### Once your pull request has been approved, delete the branch using either the automatic button or manually.
