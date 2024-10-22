@@ -6,3 +6,7 @@
 .width100 {
     width: 100%;
 }
+
+.image {
+    aspect-ratio: 16 / 9;
+}
