@@ -9,4 +9,6 @@
 
 .imageCard {
     aspect-ratio: 16 / 9;
+    width: 800;
+    height: 450;
 }
