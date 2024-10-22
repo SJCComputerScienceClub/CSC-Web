@@ -10,5 +10,6 @@
 .imageCard {
     aspect-ratio: 16 / 9;
     max-width: 100%;
+    object-fit: cover;
     overflow: hidden;
 }
