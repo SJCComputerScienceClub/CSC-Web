@@ -7,9 +7,9 @@
   #### Select the "Source Control" icon on the side menu bar.
   #### Click "Initalize Repository" and folllow the steps to link Github.
   
-  ### Codio (Broken)
-  #### Follow the link below to create a new project using the existing code.
-  https://codio.com/home/projects/new?importType=git&activeTab=3&name=CSC_Website&importGitUrl=git@github.com:SJCComputerScienceClub/CSC-Web
+  ### Codio
+  #### Follow this [guide](https://docs.codio.com/common/develop/ide/editing/connect-github-codio.html).
+  
 
   ### Manually (Inconvient)
   #### Download the code as a ZIP and open in the IDE of your choice. Make sure to always maintain the latest code and upload your changes frequently.
