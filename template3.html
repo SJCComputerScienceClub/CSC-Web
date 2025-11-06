@@ -2,36 +2,33 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Student Org Two-Column</title>
+<title>Student Organization Cards</title>
 <style>
   body {
     font-family: Arial, sans-serif;
     margin: 0;
   }
-  header {
+  header, footer {
     background: #f0f0f0;
     padding: 20px;
     text-align: center;
   }
-  .container {
+  .cards {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
-    margin: auto;
-  }
-  .main {
-    flex: 2;
+    justify-content: center;
     padding: 20px;
+    gap: 20px;
   }
-  .sidebar {
-    flex: 1;
-    padding: 20px;
+  .card {
     background: #eee;
-  }
-  footer {
-    background: #ddd;
-    text-align: center;
     padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+  }
+  .card h3 {
+    margin-top: 0;
   }
 </style>
 </head>
@@ -39,34 +36,34 @@
 
 <header>
   <h1>Student Organization</h1>
-  <p>Engage. Connect. Grow.</p>
+  <p>Discover our team and activities!</p>
 </header>
 
-<div class="container">
-  <div class="main">
-    <h2>About Us</h2>
-    <p>Information about the student organization goes here.</p>
-
-    <h2>Events</h2>
-    <ul>
-      <li>Meeting: Every Monday at 4 PM</li>
-      <li>Workshop: Next Saturday</li>
-      <li>Fundraiser: November 5</li>
-    </ul>
+<section class="cards">
+  <div class="card">
+    <h3>Event 1</h3>
+    <p>Date & Time</p>
+    <p>Short description of the event.</p>
   </div>
-
-  <div class="sidebar">
-    <h3>Quick Links</h3>
-    <ul>
-      <li><a href="index.html">About</a></li>
-      <li><a href="template2.html">Events</a></li>
-      <li><a href="template3.html">Contact</a></li>
-    </ul>
+  <div class="card">
+    <h3>Event 2</h3>
+    <p>Date & Time</p>
+    <p>Short description of the event.</p>
   </div>
-</div>
+  <div class="card">
+    <h3>Event 3</h3>
+    <p>Date & Time</p>
+    <p>Short description of the event.</p>
+  </div>
+</section>
 
 <footer>
   <p>&copy; 2025 Student Organization</p>
+  <nav>
+  <a href="index.html">About</a>
+  <a href="template2.html">Events</a>
+  <a href="template3.html">Contact</a>
+</nav>
 </footer>
 
 </body>
