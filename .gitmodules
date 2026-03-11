@@ -1,0 +1,3 @@
+[submodule ".wellknown"]
+	path = .wellknown
+	url = https://github.com/SJCComputerScienceClub/serve-well-known.git
